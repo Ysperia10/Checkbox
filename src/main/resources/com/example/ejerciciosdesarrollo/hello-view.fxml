@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox spacing="10" alignment="CENTER" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="sample.CheckboxController">
+
+    <!-- Checkbox en FXML -->
+    <CheckBox fx:id="termsCheckbox" text="Hola, dame click" onAction="#handleCheckboxAction"/>
+
+    <!-- Etiqueta para mostrar el estado del checkbox -->
+    <Label fx:id="checkboxStatus" text="El checkbox está desmarcado."/>
+
+</VBox>
